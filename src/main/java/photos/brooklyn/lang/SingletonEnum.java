@@ -5,7 +5,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 public class SingletonEnum {
-    public static enum Singleton {
+    public enum Singleton {
         INSTANCE;
     }
 
